@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7a7a7a;
+}
+.areaPrincipal{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    /*Safari 3.0*/
+    -moz-background-size: 100% 100%;
+    /*Gecko 1.9.2 (Firefox 3.6)*/
+    -o-background-size: 100% 100%;
+    /*Opera 9.5*/
+    background-size: 100% 100%;
+    /*Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers*/   
+}
+#encabezado{
+    background: #d0e6f8;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/latexa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 180px;
+}
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #15101b;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+#datos{
+    width: 80%;
+    background-color: #88e94f;
+    height: 600%;
+    margin: auto;
+    opacity: 1;
+    color: #2a3e55;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#color{
+    background-color: #ff1f1f;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 50px;
+    height: 294px; /* Le coloque un tamaño para que se viera mas amigable a la vista*/
+    width: 550px;
+    font-size: 250%;
+    text-align: left;
+    float: none;
+}
+#derecha{
+    position: relative;
+    top: -380px;
+    text-align: right;
+}
+#colrnos{
+    background-color: #ff1f1f;
+    padding: 25px;
+    text-align: justify;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+}
+#contac{
+    background-color: #15101b;
+    padding: 25px;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+#contados{
+    background-color: #15101b;
+    padding: 50px;
+    color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+#catacolor{
+    background-color:maroon;
+    padding: 20px;
+    color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+#catid{
+    background-color:maroon;
+    padding: 20px;
+    color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: left;
+}
+.galery{
+    background-color: saddlebrown;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+    color: aliceblue;
+}
